@@ -9,8 +9,8 @@ document.getElementById('button').addEventListener('click', calculate)
 function calculate () {
   diameter = document.getElementById('di').value
   diameter = parseInt(diameter)
-// This allows the input in the text box to work with the rest of the calculation
-circumference = diameter * 3.14
+  // This allows the input in the text box to work with the rest of the calculation
+  circumference = diameter * 3.14
   // This code is for my circumference//
   document.getElementById('tc').innerHTML = circumference
   // This lets the cirfumference results appear where they should be on the page
